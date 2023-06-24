@@ -1,0 +1,40 @@
+.nav-container {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+}
+.bg-transparent {
+    background-color: transparent !important;
+    
+  }
+
+  .navbar-brand,
+.nav-link,
+.dropdown-item {
+  color: white !important;
+}
+.navbar-logo {
+    justify-self: start;
+    font-size: 30px;
+    margin-left: 10rem;
+    color: rgb(0, 0, 0);
+    margin-top: 2.6vh;
+    cursor: pointer;
+}
+
+.seeCarrito {
+    font: 50px;
+    margin-right: 20px;
+    margin-top: 1vh;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 40px;
+    
+}

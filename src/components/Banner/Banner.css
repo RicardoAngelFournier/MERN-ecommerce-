@@ -1,0 +1,50 @@
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+
+}
+
+.banner-container {
+    text-align: left;
+    padding: 15% 4%;
+}
+
+.banner h1 {
+    margin: 0;
+    color: rgb(126, 182, 114);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.banner p {
+    color: #e3f1eb;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+    
+  }
+
+  .banner {
+    height: 90vh;
+  }
+  
+  .banner .row {
+    height: 100%;
+  }
+
+.form-control {
+    width: 35%;
+    max-width: 40%;
+}
+
+.banner-image-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    height: 70%;
+
+  }
